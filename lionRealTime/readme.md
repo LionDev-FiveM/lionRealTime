@@ -1,5 +1,8 @@
 [lionRealTime]
 
+[Information]
+This script only works without cd_easytime, etc...
+
 [Features]
 - Realtime
 - Timezones: CET, GMT, ET, CT, MT, PT
