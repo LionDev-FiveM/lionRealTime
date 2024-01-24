@@ -1,0 +1,6 @@
+SetMillisecondsPerGameMinute(60000)
+RegisterNetEvent("lionRealTime:event")
+AddEventHandler("lionRealTime:event", function(h, m, s)
+	NetworkOverrideClockTime(h, m, s)
+end)
+TriggerServerEvent("lionRealTime:event")
